@@ -1,0 +1,124 @@
+/* .header{
+    background-color: black;
+    color: white;
+   
+   
+   
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f0db4f;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+   */
+  /* .header_outer_container {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  height: 10vh;
+  color: white;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+}
+
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_left ul,
+.header_right ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+} */
+
+
+.header_outer_container {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    height: 10vh;
+    color: white;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+  }
+  
+  .header_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header_left ul,
+  .header_right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+  }
+  
